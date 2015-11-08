@@ -1,5 +1,5 @@
 {
-    "name": "lauthiamkok/twig-lumen",
+    "name": "laut/twig-lumen",
     "description": "Adds the power of Twig to Lumen",
     "keywords": ["Lumen", "Twig"],
     "homepage": "https://github.com/lauthiamkok/twig-lumen",
@@ -16,6 +16,7 @@
         "php": ">=5.6.0",
         "twig/twig": "*"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "LumenTwig\\": "src/"
