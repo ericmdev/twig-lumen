@@ -1,5 +1,5 @@
 {
-    "name": "lauthiamkok/twig-lumen",
+    "name": "laut/twig-lumen",
     "type": "library",
     "description": "Adds the power of Twig to Lumen",
     "keywords": ["Lumen", "Twig"],
