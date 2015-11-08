@@ -1,0 +1,25 @@
+{
+    "name": "lauthiamkok/twig-lumen",
+    "type": "library",
+    "description": "Adds the power of Twig to Lumen",
+    "keywords": ["Lumen", "Twig"],
+    "homepage": "https://github.com/lauthiamkok/twig-lumen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lau Thiam Kok",
+            "email": "lau.thiamkok@yahoo.co.uk",
+            "homepage": "http://lauthiamkok.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "twig/twig": "~1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "LumenTwig\\": "src/"
+        }
+    }
+}
