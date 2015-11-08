@@ -1,6 +1,5 @@
 {
-    "name": "laut/twig-lumen",
-    "type": "library",
+    "name": "lauthiamkok/twig-lumen",
     "description": "Adds the power of Twig to Lumen",
     "keywords": ["Lumen", "Twig"],
     "homepage": "https://github.com/lauthiamkok/twig-lumen",
@@ -14,13 +13,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "twig/twig": "~1.15"
+        "php": ">=5.6.0",
+        "twig/twig": "*"
     },
     "autoload": {
         "psr-4": {
             "LumenTwig\\": "src/"
         }
     },
-    "preferred-install": "dev"
 }
