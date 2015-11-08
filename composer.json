@@ -21,5 +21,6 @@
         "psr-4": {
             "LumenTwig\\": "src/"
         }
-    }
+    },
+    "preferred-install": "dev"
 }
