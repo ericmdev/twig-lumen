@@ -29,6 +29,7 @@ class TwigServiceProvider extends ServiceProvider
 			$twig->addGlobal('app', $app);
             $twig->addGlobal('url', app('url'));
             $twig->addGlobal('request', app('request'));
+			// does not work in lumen 5.4 as stateless
 			$twig->addGlobal('session', app('session'));
 			$twig->addGlobal('auth', app('auth'));
 
