@@ -30,7 +30,12 @@ class TwigFactory implements Factory {
     public function addNamespace($namespace, $hints) {
         
     }
-
+    
+    // lumen 5.2 has this Factory method
+    public function replaceNamespace($namespace, $hints){
+        
+    }
+    
     public function composer($views, $callback, $priority = null) {
         
     }
